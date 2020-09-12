@@ -10,11 +10,11 @@ export const Container = styled.View<ContainerProps>`
   width: 100%;
   height: 60px;
   padding: 0 16px;
-  background: #0b6337;
+  background: #003e1f;
   border-radius: 10px;
   margin-bottom: 8px;
   border-width: 2px;
-  border-color: #0b6337;
+  border-color: #003e1f;
 
   flex-direction: row;
   align-items: center;
@@ -22,13 +22,13 @@ export const Container = styled.View<ContainerProps>`
   ${props =>
     props.isFocused &&
     css`
-      border-color: #fff;
+      border-color: #e6eed6;
     `}
 `;
 
 export const TextInput = styled.TextInput`
   flex: 1;
-  color: #fff;
+  color: #e6eed6;
   font-size: 20px;
   font-family: 'Orbitron-Regular';
 `;

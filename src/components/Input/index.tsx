@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-props-no-spreading */
 import React, { useCallback, useRef, useState } from 'react';
 
@@ -32,7 +33,7 @@ const Input: React.FC<InputProps> = ({ name, icon, ...rest }) => {
     <Container isFocused={isFocused} isFilled={isFilled}>
       <Icon
         name={icon}
-        color={isFocused || isFilled ? '#fff' : '#aab0a7'}
+        color={isFocused || isFilled ? '#E6EED6' : '#aab0a7'}
         size={26}
       />
       <TextInput

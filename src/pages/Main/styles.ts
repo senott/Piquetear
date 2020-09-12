@@ -18,7 +18,7 @@ export const TitleContainer = styled.View`
 
 export const Title = styled.Text`
   font-size: 40px;
-  color: #fff;
+  color: #e6eed6;
   font-family: 'Orbitron-Bold';
   margin-left: 16px;
 `;
