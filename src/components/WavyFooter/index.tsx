@@ -13,6 +13,7 @@ const WavyFooter: React.FC<WavyFooterProps> = ({ children }) => {
   return (
     <Container>
       <Svg
+        title="Wavy footer"
         height="100%"
         width="100%"
         viewBox="0 0 1440 320"
