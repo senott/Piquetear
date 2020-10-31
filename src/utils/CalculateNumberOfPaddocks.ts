@@ -3,7 +3,7 @@ const CalculateNumberOfPaddocks = (
   occupation: number,
   batches: number,
 ): number => {
-  return rest / occupation + batches;
+  return Math.round(rest / occupation + batches);
 };
 
 export default CalculateNumberOfPaddocks;
