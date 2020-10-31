@@ -24,3 +24,10 @@ export const Title = styled.Text`
 `;
 
 export const Icon = styled(MaterialIcon)``;
+
+export const ResultText = styled.Text`
+  font-size: 30px;
+  color: #e6eed6;
+  font-family: 'Orbitron-Bold';
+  margin-left: 16px;
+`;

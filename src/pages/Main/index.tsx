@@ -6,7 +6,7 @@ import WavyFooter from '../../components/WavyFooter';
 
 import CalculateNumberOfPaddocks from '../../utils/CalculateNumberOfPaddocks';
 
-import { Container, Title, TitleContainer, Icon } from './styles';
+import { Container, Title, TitleContainer, Icon, ResultText } from './styles';
 
 const Main: React.FC = () => {
   const [rest, setRest] = useState('');
@@ -32,6 +32,7 @@ const Main: React.FC = () => {
           <Title>PIQUETEAR</Title>
         </TitleContainer>
         <Input
+          name="rest"
           icon="calendar-range"
           placeholder="Dias de descanso"
           keyboardType="numeric"
@@ -39,6 +40,7 @@ const Main: React.FC = () => {
           onChangeText={text => setRest(text)}
         />
         <Input
+          name="occupation"
           icon="calendar-clock"
           placeholder="Dias de ocupação"
           keyboardType="numeric"
@@ -46,6 +48,7 @@ const Main: React.FC = () => {
           onChangeText={text => setOccupation(text)}
         />
         <Input
+          name="batches"
           icon="cow"
           placeholder="Lotes de animais"
           keyboardType="numeric"
@@ -56,9 +59,9 @@ const Main: React.FC = () => {
       </Container>
       <WavyFooter>
         {paddocks > 0 && (
-          <Title>
+          <ResultText>
             {`Construa ${paddocks.toString()} piquetes para sua pastagem descansar ${rest} dias.`}
-          </Title>
+          </ResultText>
         )}
       </WavyFooter>
     </>
