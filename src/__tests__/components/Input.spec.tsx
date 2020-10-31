@@ -14,15 +14,8 @@ describe('Input component', () => {
   });
 
   it('should be highlighted when focused and back to normal on blur', async () => {
-    // const onBlurEvent = jest.fn();
-
     const { getByTestId, getByPlaceholder, debug } = render(
-      <Input
-        name="email"
-        icon="mail"
-        placeholder="E-mail"
-        // onBlur={onBlurEvent}
-      />,
+      <Input name="email" icon="mail" placeholder="E-mail" />,
     );
 
     const inputElement = getByPlaceholder('E-mail');
@@ -47,8 +40,6 @@ describe('Input component', () => {
     );
 
     const inputElement = getByPlaceholder('E-mail');
-
-    // fireEvent.changeText(inputElement, 'johndoe@example.com');
 
     fireEvent(inputElement, 'onEndEditing', {
       nativeEvent: { text: 'johndoe@example.com' },
