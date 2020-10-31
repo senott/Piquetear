@@ -26,7 +26,9 @@ export const Container = styled.View<ContainerProps>`
     `}
 `;
 
-export const TextInput = styled.TextInput`
+export const TextInput = styled.TextInput.attrs({
+  placeholderTextColor: '#aab0a7',
+})`
   flex: 1;
   color: #e6eed6;
   font-size: 20px;

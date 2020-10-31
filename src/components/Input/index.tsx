@@ -1,17 +1,16 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-props-no-spreading */
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 
 import { TextInputProps } from 'react-native';
 
 import { Container, TextInput, Icon } from './styles';
 
 interface InputProps extends TextInputProps {
-  name: string;
   icon: string;
 }
 
-const Input: React.FC<InputProps> = ({ name, icon, ...rest }) => {
+const Input: React.FC<InputProps> = ({ icon, ...rest }) => {
   const [isFocused, setIsFocused] = useState<boolean>(false);
   const [isFilled, setIsFilled] = useState<boolean>(false);
 
@@ -37,11 +36,9 @@ const Input: React.FC<InputProps> = ({ name, icon, ...rest }) => {
         size={26}
       />
       <TextInput
-        name={name}
-        placeholderTextColor="#aab0a7"
+        {...rest}
         onFocus={handleInputFocus}
         onEndEditing={e => handleInputBlur(e.nativeEvent.text)}
-        {...rest}
       />
     </Container>
   );
