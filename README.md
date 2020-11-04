@@ -41,7 +41,7 @@
   <h3 align="center">PIQUETEAR</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Mobile application, for iOS and Android, to calculate the number of paddocks in a rational rotational grazing system.
     <br />
     <a href="https://github.com/senott/Piquetear"><strong>Explore the docs »</strong></a>
     <br />
@@ -100,10 +100,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Yarn
 ```sh
-npm install npm@latest -g
+npm install -g yarn
 ```
 
 ### Installation
@@ -112,19 +111,28 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/senott/Piquetear.git
 ```
-2. Install NPM packages
+2. Install Yarn packages
 ```sh
-npm install
+yarn
 ```
-
-
+3. If you're planning to run this project on a Mac, you also need to run the following comands in the project root folder:
+```sh
+cd ios
+pod install
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+If you have Android Studio installed on your machine, you can run this project in an Android emulator with the following command:
+```sh
+yarn android
+```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+If you have Xcode installed on your machine, you can run the project in an iOS emulator with the command:
+```sh
+yarn ios
+```
 
 
 
