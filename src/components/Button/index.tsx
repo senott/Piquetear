@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
-import { RectButtonProperties } from 'react-native-gesture-handler';
+import { TouchableOpacityProps } from 'react-native';
 
 import { ButtonText, Container } from './styles';
 
-interface ButtonProps extends RectButtonProperties {
+interface ButtonProps extends TouchableOpacityProps {
   children: string;
 }
 
