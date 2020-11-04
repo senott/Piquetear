@@ -198,6 +198,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/github_username
-[product-screenshot-android-01]: assets/images/01Android.png
-[product-screenshot-android-02]: assets/images/02Android.png
-[product-screenshot-android-03]: assets/images/03Android.png
+[product-screenshot-android-01]: <img src="assets/images/01Android.png" height="400"/>
+[product-screenshot-android-02]: <img src="assets/images/02Android.png" height="400"/>
+[product-screenshot-android-03]: <img src="assets/images/03Android.png" height="400"/>
