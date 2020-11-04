@@ -1,12 +1,3 @@
-# react-native-template
-Template to create new React Native projects using Typescript in VSCode.
-
-### Clone the repository and then use 'react-native-rename' to rename project.
-  ` $ react-native-rename <New_Name> `
-
-### To install react-native-rename:
-  `$ yarn global add react-native-rename `
-
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open
@@ -43,23 +34,23 @@ Template to create new React Native projects using Typescript in VSCode.
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/Piquetear">
+  <a href="https://github.com/senott/Piquetear">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">PIQUETEAR</h3>
 
   <p align="center">
     YOUR_SHORT_DESCRIPTION
     <br />
-    <a href="https://github.com/github_username/Piquetear"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/senott/Piquetear"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/Piquetear">View Demo</a>
+    <a href="https://github.com/senott/Piquetear">View Demo</a>
     ·
-    <a href="https://github.com/github_username/Piquetear/issues">Report Bug</a>
+    <a href="https://github.com/senott/Piquetear/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/Piquetear/issues">Request Feature</a>
+    <a href="https://github.com/senott/Piquetear/issues">Request Feature</a>
   </p>
 </p>
 
@@ -98,10 +89,8 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [React Native]()
+* [Typescript]()
 
 
 <!-- GETTING STARTED -->
