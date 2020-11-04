@@ -82,15 +82,10 @@
 ### iOS screenshots:
 <img src="assets/images/01iPhone.png" height="400"/><img src="assets/images/02iPhone.png" height="400"/><img src="assets/images/03iPhone.png" height="400"/>
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`
-
-
 ### Built With
 
-* [React Native]()
-* [Typescript]()
+* [React Native](https://reactnative.dev/)
+* [Typescript](https://www.typescriptlang.org/)
 
 
 <!-- GETTING STARTED -->
@@ -186,14 +181,14 @@ Project Link: [https://github.com/senott/Piquetear](https://github.com/senott/Pi
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/senott/repo.svg?style=flat-square
-[contributors-url]: https://github.com/senott/repo/graphs/contributors
+[contributors-url]: https://github.com/senott/Piquetear/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/senott/repo.svg?style=flat-square
-[forks-url]: https://github.com/senott/repo/network/members
+[forks-url]: https://github.com/senott/Piquetear/network/members
 [stars-shield]: https://img.shields.io/github/stars/senott/repo.svg?style=flat-square
-[stars-url]: https://github.com/senott/repo/stargazers
+[stars-url]: https://github.com/senott/Piquetear/stargazers
 [issues-shield]: https://img.shields.io/github/issues/senott/repo.svg?style=flat-square
-[issues-url]: https://github.com/senott/repo/issues
+[issues-url]: https://github.com/senott/Piquetear/issues
 [license-shield]: https://img.shields.io/github/license/senott/repo.svg?style=flat-square
-[license-url]: https://github.com/senott/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/senott/Piquetear/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/senott
