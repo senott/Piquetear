@@ -85,9 +85,11 @@ Template to create new React Native projects using Typescript in VSCode.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="assets/images/01Android.png" height="400"/>
-<img src="assets/images/02Android.png" height="400"/>
-<img src="assets/images/03Android.png" height="400"/>
+### Android screenshots:
+<img src="assets/images/01Android.png" height="400"/><img src="assets/images/02Android.png" height="400"/><img src="assets/images/03Android.png" height="400"/>
+
+### iOS screenshots:
+<img src="assets/images/01iPhone.png" height="400"/><img src="assets/images/02iPhone.png" height="400"/><img src="assets/images/03iPhone.png" height="400"/>
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
