@@ -176,15 +176,15 @@ Project Link: [https://github.com/senott/Piquetear](https://github.com/senott/Pi
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/senott/repo.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/senott/Piquetear.svg?style=flat-square
 [contributors-url]: https://github.com/senott/Piquetear/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/senott/repo.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/senott/Piquetear.svg?style=flat-square
 [forks-url]: https://github.com/senott/Piquetear/network/members
-[stars-shield]: https://img.shields.io/github/stars/senott/repo.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/senott/Piquetear.svg?style=flat-square
 [stars-url]: https://github.com/senott/Piquetear/stargazers
-[issues-shield]: https://img.shields.io/github/issues/senott/repo.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/senott/Piquetear.svg?style=flat-square
 [issues-url]: https://github.com/senott/Piquetear/issues
-[license-shield]: https://img.shields.io/github/license/senott/repo.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/senott/Piquetear.svg?style=flat-square
 [license-url]: https://github.com/senott/Piquetear/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/senott
